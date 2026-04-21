@@ -6,6 +6,7 @@
   <h1>Main features:</h1>
   <h3>Validation routes with JWT</h3>
   <div>
+    <h1>Endpoints</h1>
     <h3>POST</h3>
     <ul>
       <li>/signup - Create an user</li>
@@ -33,7 +34,7 @@
         {
           "description": string,
           "date": string | Date,
-          "is_done": boolean,
+          "is_done": "done" | "pending",
           "user_id": number
         }
       </p>
